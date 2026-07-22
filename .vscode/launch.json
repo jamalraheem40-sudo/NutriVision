@@ -1,0 +1,28 @@
+{
+  "configurations": [
+    {
+      "name": "Android - Google Play",
+      "type": "dart",
+      "request": "launch",
+      "program": "packages/smooth_app/lib/entrypoints/android/main_google_play.dart"
+    },
+    {
+      "name": "iOS/macOS",
+      "type": "dart",
+      "request": "launch",
+      "program": "packages/smooth_app/lib/entrypoints/ios/main_ios.dart"
+    },
+    {
+      "name": "Android - FDroid",
+      "type": "dart",
+      "request": "launch",
+      "program": "packages/smooth_app/lib/entrypoints/android/main_fdroid.dart"
+    },
+    {
+      "name": "Android - Samsung Gallery",
+      "type": "dart",
+      "request": "launch",
+      "program": "packages/smooth_app/lib/entrypoints/android/main_samsung_gallery.dart"
+    }
+  ]
+}
